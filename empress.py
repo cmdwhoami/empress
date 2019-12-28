@@ -58,7 +58,7 @@ def press(pin, seconds):
 # Setup ArgParser
 parser = argparse.ArgumentParser(
     prog='empress',
-    description='External Management of Power and RESet Switchs')
+    description='External Management of Power and Reset Switchs')
 
 parser.add_argument(
     '--target', '-t',
