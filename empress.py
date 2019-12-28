@@ -42,11 +42,11 @@ from time import sleep
 
 
 # System Targets List
-systems = ["miner01", "miner02", "miner03"]
+systems = ["miner01", "miner02", "miner03", "miner04"]
 # System Power Pin List
-powerpin = [17, 23, 6] # 17 = pin 11, 22 = pin 15, 9 = pin 21
+powerpin = [17, 23, 6, 19]
 # System Reset Pin List
-resetpin = [22, 18, 12] # 18 = pin 12, 23 = pin 16, 25 = pin 22
+resetpin = [22, 18, 12, 16]
 # All the pins that are used
 pins = powerpin + resetpin
 
